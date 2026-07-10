@@ -1,0 +1,29 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import { Toaster } from "react-hot-toast";
+
+export const metadata: Metadata = {
+  title: "GrowEasy CSV Importer",
+  description: "AI Powered CSV Importer",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body>
+
+        <Toaster
+          position="top-right"
+          reverseOrder={false}
+        />
+
+        {children}
+
+      </body>
+    </html>
+  );
+}
