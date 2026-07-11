@@ -7,10 +7,10 @@ An AI-powered CRM CSV Importer that automatically detects and maps CSV columns t
 ## 🌐 Live Demo
 
 **Frontend (Vercel):**
-https://YOUR-VERCEL-URL.vercel.app
+[https://YOUR-VERCEL-URL.vercel.app](https://groweasy-csv-importer-liart-nu.vercel.app/)
 
 **Backend (Render):**
-https://groweasy-csv-importer-dg05.onrender.com
+[https://groweasy-csv-importer-dg05.onrender.com](https://groweasy-csv-importer-dg05.onrender.com)
 
 ---
 
