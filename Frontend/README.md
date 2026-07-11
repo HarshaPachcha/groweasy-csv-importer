@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 GrowEasy AI CSV Importer
 
-## Getting Started
+An AI-powered CSV Importer that intelligently maps CSV columns to CRM fields using **Google Gemini AI**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- 📂 Upload CSV files
+- 👀 Preview CSV data
+- 🤖 AI-powered CRM field mapping
+- ✏️ Editable field mapping
+- 📥 Import data into CRM format
+- 📊 Import Success Dashboard
+- ⬇️ Download JSON
+- ⬇️ Download CSV
+- 🎨 Modern responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Axios
+- React Hot Toast
+
+### Backend
+- Node.js
+- Express.js
+- Multer
+- Google Gemini AI
+
+---
+
+## 📂 Project Structure
+
+```text
+groweasy-csv-importer/
+│
+├── Backend/
+├── Frontend/
+├── Screenshots/
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Upload Page
 
-## Learn More
+![Upload](Screenshots/upload.png)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### CSV Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Preview](Screenshots/preview.png)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### AI Field Mapping
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Mapping](Screenshots/mapping.png)
+
+---
+
+### Import Success Dashboard
+
+![Success](Screenshots/success.png)
+
+---
+
+## ⚙️ Installation
+
+### Backend
+
+```bash
+cd Backend
+npm install
+npm run dev
+```
+
+### Frontend
+
+```bash
+cd Frontend
+npm install
+npm run dev
+```
+
+---
+
+## Environment Variables
+
+Create:
+
+```text
+Backend/.env
+```
+
+Add:
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+PORT=5000
+```
+
+---
+
+## 👨‍💻 Author
+
+**Harsha Pachcha**
+
+M.Sc Data Science
+
+AI | Machine Learning | Data Science

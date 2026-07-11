@@ -75,7 +75,7 @@ ${JSON.stringify(sampleData, null, 2)}
 
         console.error("Gemini Error:", error);
 
-        throw new Error("Failed to detect CRM fields");
+        throw error;
 
     }
 
