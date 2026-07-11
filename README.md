@@ -1,26 +1,34 @@
 # 🚀 GrowEasy AI CSV Importer
 
-An AI-powered CSV Importer that intelligently maps CSV columns to CRM fields using **Google Gemini AI**. Users can upload a CSV, preview data, edit AI-generated mappings, and import transformed CRM-ready records.
+An AI-powered CRM CSV Importer that automatically detects and maps CSV columns to CRM fields using **Google Gemini AI**. Users can review and edit the AI-generated mappings before importing the data.
+
+---
+
+## 🌐 Live Demo
+
+**Frontend (Vercel):**
+https://YOUR-VERCEL-URL.vercel.app
+
+**Backend (Render):**
+https://groweasy-csv-importer-dg05.onrender.com
 
 ---
 
 ## ✨ Features
 
 - 📤 Upload CSV files
-- 👀 CSV Preview
-- 🤖 AI-powered CRM Field Mapping (Gemini AI)
-- ✏️ Editable Field Mapping
-- 📥 Import CRM Data
-- 📊 Import Success Dashboard
-- 📄 Download Imported Data as CSV
-- 📑 Download Imported Data as JSON
-- 🔔 Toast Notifications
-- 🔄 Import Another CSV
-- 📱 Responsive Modern UI
+- 👀 Preview uploaded data
+- 🤖 AI-powered CRM field mapping
+- ✏️ Editable field mapping
+- 📥 Import data into CRM format
+- 📄 Download imported data as JSON
+- 📊 Download imported data as CSV
+- 📱 Responsive modern UI
+- ☁️ Fully deployed on Vercel & Render
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend
 - Next.js
@@ -34,49 +42,32 @@ An AI-powered CSV Importer that intelligently maps CSV columns to CRM fields usi
 - Node.js
 - Express.js
 - Multer
-- csv-parser
-
-### AI
-- Google Gemini API
+- Google Gemini AI
+- CSV Parser
 
 ---
 
 ## 📂 Project Structure
 
-```
-groweasy-csv-importer/
-│
-├── Frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
+```text
+groweasy-csv-importer
 │
 ├── Backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── services/
-│   ├── uploads/
-│   ├── server.js
-│
+├── Frontend/
+├── Screenshots/
 └── README.md
 ```
 
 ---
 
-## 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone <your-github-url>
-```
+## ⚙️ Installation
 
 ### Backend
 
 ```bash
 cd Backend
 npm install
-npm run dev
+npm start
 ```
 
 ### Frontend
@@ -91,110 +82,43 @@ npm run dev
 
 ## 🔑 Environment Variables
 
-Create a `.env` file inside **Backend**.
-
-Example:
+### Backend
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
 PORT=5000
 ```
 
----
+### Frontend
 
-## 📋 Workflow
-
-1. Upload CSV
-2. Preview CSV
-3. AI detects CRM fields
-4. Edit mappings (optional)
-5. Import data
-6. View Success Dashboard
-7. Download CSV / JSON
-8. Import another CSV
-
----
----
-
-## 🔄 Application Workflow
-
-```text
-Upload CSV
-      │
-      ▼
-CSV Preview
-      │
-      ▼
-AI Field Mapping (Gemini AI)
-      │
-      ▼
-Edit Mapping (Optional)
-      │
-      ▼
-Import CRM Data
-      │
-      ▼
-Success Dashboard
-      │
-      ▼
-Download JSON / CSV
-      │
-      ▼
-Import Another CSV
+```env
+NEXT_PUBLIC_API_URL=https://groweasy-csv-importer-dg05.onrender.com
 ```
----
 
-## 🌟 Highlights
-
-- AI-powered CRM field mapping using Google Gemini
-- Smart CSV preview before import
-- Editable AI suggestions
-- Download imported data in JSON and CSV
-- Modern responsive UI
-- Toast notifications for user feedback
-- Drag-and-drop CSV upload
-- Professional dashboard after import
-
----
-
-## 🚀 Future Improvements
-
-- User Authentication
-- Import History
-- Database Integration (MongoDB/PostgreSQL)
-- Multiple CRM Support
-- Bulk Import Validation
-- Dark Mode
-- User Roles & Permissions
-- Audit Logs
-- Docker Support
 ---
 
 ## 📸 Screenshots
 
-### Upload Page
+### Upload CSV
 
-![Upload Page](screenshots/upload.png)
-
-### CSV Preview
-
-![CSV Preview](screenshots/preview.png)
+![Upload](Screenshots/upload.png)
 
 ### AI Field Mapping
 
-![AI Field Mapping](screenshots/mapping.png)
+![Mapping](Screenshots/mapping.png)
 
-### Success Dashboard
+### Imported Data Preview
 
-![Success Dashboard](screenshots/success.png)
+![Preview](Screenshots/preview.png)
 
+### Import Success
 
-## 📄 License
+![Success](Screenshots/success.png)
 
-This project was developed as part of the GrowEasy AI CSV Importer assignment for educational and demonstration purposes.
+---
 
 ## 👨‍💻 Author
 
-**Harshavardhan Pachcha**
+**Pachcha Harshavardhan**
 
-M.Sc Data Science
+- GitHub: https://github.com/HarshaPachcha
